@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+.bg-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/photographer.jpg);
+  background-size: 100% 100%;
+  height: 600px;
+  margin: auto 10px;
+  position: relative;
+  z-index: 1;
+}
+.img-content {
+  color: white;
+  border: 1px solid white;
+  padding: 20px;
+}
+#name-of-photographer {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+#profession {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 200;
+}
+.menu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 24%;
+  top: -35px;
+  z-index: 2;
+}
+.menu-items {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(200, 200, 200);
+  border-radius: 5px;
+}
+.menu-items > li {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 20px;
+}
+.menu-items a {
+  text-decoration: none;
+  color: black;
+}
+.images {
+  width: 100%;
+  margin: 2px auto;
+}
+.images > img,
+.contact {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 55%;
+}
+.contact {
+  background-color: #f1f1f1;
+  padding: 30px;
+}
+.contact > h2 {
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  font-size: 35px;
+  margin: 20px;
+}
+.contact > p {
+  padding: 20px 0;
+}
+.form-css {
+  border: none;
+  font-size: 20px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+#msg {
+  resize: none;
+}
+#send-btn {
+  cursor: pointer;
+  color: white;
+  background-color: #616161;
+}
+#send-btn:hover {
+  color: black;
+  background-color: #61616135;
+}
+footer {
+  margin: auto 10px;
+  padding: 20px;
+  background-color: #61616160;
+}
+footer > p {
+  margin-left: 50px;
+}
+
+/* SCROLLBAR CSS */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+} 
